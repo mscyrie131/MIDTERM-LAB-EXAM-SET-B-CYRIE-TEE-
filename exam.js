@@ -1,7 +1,7 @@
 const add = require('./add')
 const read = require('./read')
 
-//get users input
+//get user input
 const cmd = process.argv;
 
  {
@@ -9,7 +9,7 @@ const cmd = process.argv;
     const note = { 
         Employee: cmd[2],
         Role: cmd[3],
-        Department: cmd[4]
+        Department: cmd[4],
 
        
     }
